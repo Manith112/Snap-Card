@@ -272,13 +272,17 @@ body{
         cursor: pointer;
     }
     .list-feature{
-        bottom: 60%;
-   left: 30%;
-   transform: translateX(-50%);
+        position: relative;
+       
+        bottom: -10%;
+   left: 55%;
+  
     }
     .list-feature-2{
-        bottom: 55%;
-        left: 30%;
+        position: relative;
+       
+        bottom: -10%;
+        left: 55%;
     }
 }
 @media screen and (max-width: 530px){

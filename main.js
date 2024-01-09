@@ -6,13 +6,15 @@ const arrowUpOne = document.getElementById("up-arrow-1")
 const arrowUpTwo = document.getElementById("up-arrow-2")
 const menu = document.getElementById("burger");
 const lists = document.querySelector(".list");
-const close = document.getElementById("close")
+const close = document.getElementById("close");
+
 
 // feature list
 arrowDownOne.addEventListener('click' , function(){
     arrowDownOne.style.display= "none";
     arrowUpOne.style.display = "flex";
     features.style.display= "flex"
+   
 })
 arrowUpOne.addEventListener('click' , function(){
     arrowDownOne.style.display= "flex";
@@ -26,6 +28,7 @@ arrowDownTwo.addEventListener('click' , function(){
     arrowDownTwo.style.display= "none";
     arrowUpTwo.style.display = "flex";
     companys.style.display= "flex"
+    
 })
 arrowUpTwo.addEventListener('click' , function(){
     arrowDownTwo.style.display= "flex";
